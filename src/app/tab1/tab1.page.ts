@@ -14,6 +14,7 @@ export class Tab1Page {
   infoData = {
     
   }
+  URI = ' /api/records/1.0/search/?dataset=box-a-velos-a-lille-lomme-et-hellemmes&q=&facet=quartier';
 
 
   constructor(public http: HttpClient) {
